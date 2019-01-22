@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+	<title>Mongoose Scraping App</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+
+<body>
+	<div class="jumbotron">
+		<a href="/savedarticles.html"><p>See your saved articles!</p></a>
+		<a href="/savednotes.html"><p>See your saved notes!</p></a>
+		<h1>Mongo DB Scraper</h1>
+    <h2>Click on the Button to Scrape for articles!</h2>
+	</div>
+
+			<button class="deleter">Delete!</button>
+
+		<button class="scraper">Scrape!</button>
+		<div id="wrapper">
+    <div id="articles"></div>
+    <div id="notes"></div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="app.js"></script>
+	
+</body>
+
+</html>
